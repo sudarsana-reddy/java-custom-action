@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM maven:latest
 WORKDIR /app
 
 COPY . /app
