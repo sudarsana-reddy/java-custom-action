@@ -24,4 +24,4 @@ jobs:
 
       - name: List docker images
         run: |
-          docker container ls
+          docker image ls
