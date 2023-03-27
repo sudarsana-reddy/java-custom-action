@@ -1,4 +1,8 @@
-on: [workflow_dispatch]
+name: Java Custom Action
+
+on: 
+  workflow_dispatch:
+  push:
 
 jobs:
   hello_world_job:
@@ -20,4 +24,4 @@ jobs:
 
       - name: List docker images
         run: |
-          docker ps -a
+          docker container ls
